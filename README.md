@@ -1,7 +1,7 @@
 # ai-devshop-python
 
-**AI Devshop Python Core**  
-Backend foundation for a next-generation, agent-powered app builder.  
+**AI Devshop Python Core**
+Backend foundation for a next-generation, agent-powered app builder.
 Orchestrates AI research, secure code editing, and workflow automation using OpenAI agents, Perplexity’s research APIs, and a modular tool system.
 
 ## Features (Planned)
@@ -23,8 +23,8 @@ Orchestrates AI research, secure code editing, and workflow automation using Ope
 ```
 
 ## Quick Start (Coming Soon)
-* Clone repo  
-* Install requirements  
+* Clone repo
+* Install requirements
 * Set up `.env` for all keys
 
 ## Roadmap
@@ -35,3 +35,8 @@ Orchestrates AI research, secure code editing, and workflow automation using Ope
 5. Extended support, async, and plugins
 
 **Principles:** Secure, modular, extensible, future-focused.
+
+### New in this version
+- Perplexity integration via `PerplexityAPI`
+- Research tools `quick_search` and `deep_research`
+- `ResearchAgent` using OpenAI `o3` model and Perplexity tools
