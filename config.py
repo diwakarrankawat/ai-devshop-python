@@ -1,5 +1,8 @@
 """Configuration management for ai-devshop-python."""
 import os
+import dotenv
+
+dotenv.load_dotenv()
 
 class Config:
     """Basic configuration loader for environment variables."""
